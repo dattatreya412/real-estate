@@ -111,7 +111,6 @@ import loop3 from '../../property-assets/38A/exterior/videos/loop/loop3.mp4';
 import loop4 from '../../property-assets/38A/exterior/videos/loop/loop4.mp4';
 
 const PropertyBriefDescription = ({ propertie, navigateBack }) => {
-  const [loopIndex, setLoopIndex] = useState(0);
   const [vedioIndex, setVedioIndex] = useState(0);
   const [pushQuickVideo, setPushQuickVideo] = useState(false);
   const [isReady, setIsReady] = useState({

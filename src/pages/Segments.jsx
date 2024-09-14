@@ -4,7 +4,6 @@ import PropertyDescription from "../components/segments/PropertyDescription";
 import PropertyBriefDescription from "../components/segments/PropertyBriefDescription";
 import properties from "../data/properties";
 
-import Counter from "./Counter";
 
 const Segments = () => {
   const [isDetailed, setIsDetailed] = useState(false);
