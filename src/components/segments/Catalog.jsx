@@ -29,8 +29,8 @@ const Catalog = ({switchImage}) => {
                 <img
                   src={view1}
                   alt=""
-                  className="w-full h-full object-cover object-center"
-                  onClick={()=>{switchImage(0, 1)}}
+                  className="w-full h-full object-cover object-left-bottom"
+                  onClick={()=>{switchImage(1, 0)}}
                 />
               </button>
               <button className="w-12 h-12 m-2 hover:border-2 hover:border-neutral-50 rounded-sm">
@@ -38,7 +38,7 @@ const Catalog = ({switchImage}) => {
                   src={view2}
                   alt=""
                   className="w-full h-full object-cover object-center"
-                  onClick={()=>{switchImage(2, 2)}}
+                  onClick={()=>{switchImage(0, 1)}}
                 />
               </button>
               <button className="w-12 h-12 m-2 hover:border-2 hover:border-neutral-50 rounded-sm">
@@ -46,7 +46,7 @@ const Catalog = ({switchImage}) => {
                   src={view3}
                   alt=""
                   className="w-full h-full object-cover object-center"
-                  onClick={()=>{switchImage(2, 3)}}
+                  onClick={()=>{switchImage(3, 2)}}
                 />
               </button>
               <button className="w-12 h-12 m-2 hover:border-2 hover:border-neutral-50 rounded-sm">
@@ -54,7 +54,7 @@ const Catalog = ({switchImage}) => {
                   src={view4}
                   alt=""
                   className="w-full h-full object-cover object-center"
-                  onClick={()=>{switchImage(1,1)}}
+                  onClick={()=>{switchImage(2,3)}}
                 />
               </button>
             </div>
